@@ -11,6 +11,33 @@
 
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/sipml@2.1.4/SIPml-api.js'></script>
     <style>
+        .example-enter {
+            opacity: 0.01;
+        }
+
+        .example-appear {
+            opacity: 0.01;
+        }
+
+        .example-appear.example-appear-active {
+            opacity: 1;
+            transition: opacity .5s ease-in-out;
+        }
+
+        .example-enter.example-enter-active {
+            opacity: 1;
+            transition: opacity 500ms ease-in-out;
+        }
+
+        .example-leave {
+            opacity: 1;
+        }
+
+        .example-leave.example-leave-active {
+            opacity: 0.01;
+            transition: opacity 300ms ease-in;
+        }
+
         div::-webkit-scrollbar {
             width: 6px;
             background-color: #F5F5F5;
@@ -73,7 +100,7 @@
     <div id="root"></div>
 
     <!-- credits -->
-
+    <audio id="ringtone" loop src="../src/assets/ringtone.mp3"> </audio>
 <script type="text/javascript" src="/bundle.js"></script></body>
 
 </html>
