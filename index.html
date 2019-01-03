@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel='shortcut icon' type='image/x-icon' href='//logo.clearbit.com/highradius.com' />
-
+    <!-- <script type="text/javascript" src="/tovo/static/SIPml-api.js"></script>
+    <script type="text/javascript" src="/tovo/static/RecordRTC.js"></script> -->
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/sipml@2.1.4/SIPml-api.js'></script>
     <style>
         .example-enter {
@@ -46,10 +47,16 @@
 
         div::-webkit-scrollbar-track {
             -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
             background-color: #F5F5F5;
         }
 
+        div {
+            font-size: 18px
+        }
+        span {
+            font-size: 18px
+
+        }
 
         div::-webkit-scrollbar-thumb {
             background-color: #000000;
@@ -60,10 +67,10 @@
             background: #7FDBFF;
         } */
 
-        body {
-            background-color: #333333;
+        body {  
+            background-color: #58687E;
             font-family: "Roboto";
-            font-size: "1vh";
+            font-size: "50%";
             line-height: "1em";
         }
 
@@ -101,7 +108,7 @@
     <div id="root"></div>
 
     <!-- credits -->
-    <audio id="ringtone" loop src="../assets/ringtone.mp3"> </audio>
+    <audio id="ringtone" loop src="./ringtone.mp3"> </audio>
 <script type="text/javascript" src="/bundle.js"></script></body>
 
 </html>
