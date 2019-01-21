@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel='shortcut icon' type='image/x-icon' href='//logo.clearbit.com/highradius.com' />
-    <!-- <script type="text/javascript" src="/tovo/static/SIPml-api.js"></script>
-    <script type="text/javascript" src="/tovo/static/RecordRTC.js"></script> -->
+    <!-- <script type="text/javascript" src="/tovo/static/SIPml-api.js"></script> -->
+    <script type="text/javascript" src="/tovo/static/RecordRTC.js"></script>
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/sipml@2.1.4/SIPml-api.js'></script>
     <style>
         .example-enter {
@@ -51,15 +51,20 @@
         }
 
         div {
-            font-size: 18px
+            font-size: calc(0.75vh + 0.75vw)
         }
         span {
-            font-size: 18px
+            font-size: calc(0.75vh + 0.75vw)
         }
         
         p {
-            font-size:  18px
+            font-size: calc(0.75vh + 0.75vw)
         }
+        html 
+        {
+            font-size: calc(0.75vh + 0.75vw)
+        }
+       
 
         div::-webkit-scrollbar-thumb {
             background-color: #000000;
@@ -71,10 +76,11 @@
         } */
 
         body {  
-            background-color: #58687E;
+            background-image: radial-gradient(#58687E, #39495E);;
             font-family: "Roboto";
             font-size: "50%";
             line-height: "1em";
+            margin : 0;
         }
 
         .material-icons {
@@ -102,6 +108,7 @@
             /* Support for IE. */
             font-feature-settings: 'liga';
         }
+
     </style>
 </head>
 
