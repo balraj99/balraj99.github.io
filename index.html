@@ -41,7 +41,7 @@
 
         div::-webkit-scrollbar {
             width: 6px;
-            background-color : transparent;
+            background-color: transparent;
         }
 
 
@@ -53,20 +53,21 @@
         div {
             font-size: calc(0.75vh + 0.75vw)
         }
+
         span {
             font-size: calc(0.75vh + 0.75vw)
         }
-        
+
         p {
             font-size: calc(0.75vh + 0.75vw)
         }
-        html 
-        {
+
+        html {
             font-size: calc(0.75vh + 0.75vw);
             background-image: radial-gradient(#58687E, #39495E);
 
         }
-       
+
 
         div::-webkit-scrollbar-thumb {
             background-color: #5DAAE0;
@@ -77,12 +78,12 @@
             background: #7FDBFF;
         } */
 
-        body {  
+        body {
             /* background-image: radial-gradient(#58687E, #39495E);; */
             font-family: "Roboto";
             font-size: "50%";
             line-height: "1em";
-            margin : 0;
+            margin: 0;
         }
 
         .material-icons {
@@ -111,6 +112,27 @@
             font-feature-settings: 'liga';
         }
 
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example {
+            from {
+                border-color: #fd746c;
+            }
+
+            to {
+                border-color: #5691c8;
+            }
+        }
+
+        /* Standard syntax */
+        @keyframes example {
+            from {
+                border-color: #fd746c;
+            }
+
+            to {
+                border-color: #5691c8;
+            }
+        }
     </style>
 </head>
 
