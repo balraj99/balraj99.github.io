@@ -1,0 +1,10 @@
+{
+  "main.js": "/0.bundle.js",
+  "main.js.map": "/0.bundle.js.map",
+  "runtime.js": "/bundle.js",
+  "runtime.js.map": "/bundle.js.map",
+  "vendors.js": "/2.bundle.js",
+  "vendors.js.map": "/2.bundle.js.map",
+  "Ripple.gif": "/317df0b71944b200cb0a2329e7aebc0b.gif",
+  "index.html": "/index.html"
+}
